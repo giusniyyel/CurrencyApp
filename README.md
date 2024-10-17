@@ -1,21 +1,19 @@
-## Currency Converter App - A Kotlin Multiplatform Application
+## Currency Converter App - A Kotlin Multiplatform Mobile Application
 
-**Features:**
+**Convert currencies with ease!** This app allows you to convert between various currencies and view the latest exchange rates, with a familiar look and feel on both Android and iOS.
 
-- Convert between various currencies
-- View the latest exchange rates
-- Available on both Android and iOS
+**Built with Modern Technologies:**
 
-**Technologies:**
-
-- **Kotlin Multiplatform Mobile (KMM):** Enables code sharing between Android and iOS platforms.
-- **Compose Multiplatform:** Provides a declarative UI framework for building user interfaces across platforms.
+- **Kotlin Multiplatform Mobile (KMM):** Share a significant portion of your codebase across platforms for faster development and easier maintenance.
+- **Compose Multiplatform:** Leverage a declarative UI framework to build beautiful and consistent user interfaces across Android and iOS.
 
 **Getting Started:**
 
+Before diving in, ensure you have the following tools installed:
+
 1. **Prerequisites:**
-  - Android Studio with the Kotlin plugin installed
-  - Xcode with Swift support
+    - Android Studio with the Kotlin plugin
+    - Xcode with Swift support
 
 2. **Clone the repository:**
     ```bash
@@ -32,23 +30,6 @@ The project uses Gradle for building. To build the application for both platform
 ./gradlew clean assemble
 ```
 
-## Dependencies:
-
-Please refer to the `gradle/libs.versions.toml` file for the specific libraries and versions used in this project.
-
-## Contributing:
-
-We welcome contributions to this project! Please refer to the CONTRIBUTING.md file for details on how to contribute code and report issues.
-
-## License:
-
-This project is licensed under the Apache License 2.0. See the LICENSE file for details.
-
-## Additional Notes:
-
-- Consider including links to relevant documentation for KMM and Compose Multiplatform.
-- You can further customize the README to include screenshots, usage instructions, or project-specific details.
-
 ## Project Structure:
 
 * **`/composeApp`** (Shared Code):
@@ -58,7 +39,18 @@ This project is licensed under the Apache License 2.0. See the LICENSE file for 
 * **`/iosApp`** (iOS Entry Point):
     * This folder contains the entry point for the iOS application. While UI is shared with Compose Multiplatform, this folder is necessary for launching the app on iOS. You might also include SwiftUI code for specific iOS UI elements here.
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+## Learn More:
+
+- Kotlin Multiplatform: Get started with KMM https://www.jetbrains.com/kotlin-multiplatform/
+- Compose Multiplatform: Explore the world of Compose Multiplatform https://www.jetbrains.com/compose-multiplatform/
+
+## Contributing:
+
+We welcome contributions to this project! Please refer to the CONTRIBUTING.md file for details on how to contribute code and report issues.
+
+## License:
+
+This project is licensed under the Apache License 2.0. See the LICENSE file for details.
 
 ---
 Typed with ❤️ by [Daniel Campos](https://github.com/giusniyyel) 😊
