@@ -59,3 +59,7 @@ This project is licensed under the Apache License 2.0. See the LICENSE file for 
     * This folder contains the entry point for the iOS application. While UI is shared with Compose Multiplatform, this folder is necessary for launching the app on iOS. You might also include SwiftUI code for specific iOS UI elements here.
 
 Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+
+---
+Typed with ❤️ by [Daniel Campos](https://github.com/giusniyyel) 😊
+Licensed under the Apache 2.0 License.
