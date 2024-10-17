@@ -1,13 +1,13 @@
-## Currency Converter App - A Kotlin Multiplatform Mobile Application
+# Currency Converter App
 
 **Convert currencies with ease!** This app allows you to convert between various currencies and view the latest exchange rates, with a familiar look and feel on both Android and iOS.
 
-**Built with Modern Technologies:**
+## Built with Modern Technologies:
 
 - **Kotlin Multiplatform Mobile (KMM):** Share a significant portion of your codebase across platforms for faster development and easier maintenance.
 - **Compose Multiplatform:** Leverage a declarative UI framework to build beautiful and consistent user interfaces across Android and iOS.
 
-**Getting Started:**
+## Getting Started
 
 Before diving in, ensure you have the following tools installed:
 
@@ -22,7 +22,7 @@ Before diving in, ensure you have the following tools installed:
 
 3. **Open the project in Android Studio**
 
-**Building:**
+## Building
 
 The project uses Gradle for building. To build the application for both platforms, run the following command in your terminal:
 
